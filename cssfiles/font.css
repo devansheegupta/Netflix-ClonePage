@@ -1,0 +1,27 @@
+
+@font-face {
+    font-family: "Myfont";
+    font-weight: 400;
+    src: url(NetflixSans_W_Rg.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: "Myfont";
+    font-weight: 900;
+    src: url(NetflixSans_W_Md.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: "Myfont";
+    font-weight: 800;
+    src: url(NetflixSans_W_Bd.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: "Myfont";
+    font-weight: 700;
+    src: url(NetflixSans_W_Blk.woff2) format('woff2');
+}
+
+
+

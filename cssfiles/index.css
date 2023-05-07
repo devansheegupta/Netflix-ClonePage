@@ -1,0 +1,509 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: "Myfont",Arial,sans-serif;
+    font-weight: 100;
+    -webkit-text-size-adjust: 100%;
+}
+body{
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content1{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    /*position: relative;*/
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 8, 29, 0.7), rgba(0, 8, 29, 0.7)), url("../bgimg.jpg");
+    min-height: 56.25rem;
+    box-sizing: border-box;
+
+}
+.content1box {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 86px;
+    padding: 0 3rem;
+}
+
+#left {
+    width: 40%;
+    /*margin-left: -16px;*/
+}
+
+#right {
+    text-align: right;
+    width: 60%;
+    padding: 3px;
+    height: 35px;
+}
+
+.selectbtn {
+    background-color: transparent;
+    padding: 4px 16px;
+    font-stretch: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    margin: 2px 6px 0px 0px;
+    border-radius: 4px;
+}
+
+select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    /*-webkit-appearance: none;*/
+}
+
+#logo {
+    width: 9.25rem;
+    height: 2.5rem;
+    fill: rgba(229, 9, 20, 1);
+    display: block;
+}
+
+button {
+    border-width: 0.0625rem;
+    color: white;
+    background-color: red;
+    padding: 6px 16px;
+    font-size: 15px;
+    /*margin: -2px 0px 0px 2px;*/
+    border-radius: 4px;
+}
+
+.logoglobe {
+    margin-top: 2px;
+    fill: rgba(229, 9, 20, 1);
+    /*color: white;*/
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.inline {
+    display: inline-flex;
+}
+
+#head {
+    padding: 5.875rem min(10%, 6.25rem) 0 min(10%, 6.25rem);
+    display: inline-flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    margin: -16px 0px 0px 0px;
+}
+
+.netflix-sans {
+    font-family: "Myfont", Arial, sans-serif;
+    font-weight: 900;
+    display: inline-flex;
+}
+
+#head h1 {
+    margin-top: 10px;
+    width: 75%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 3.5rem;
+}
+
+#head span {
+    margin-top: 16px;
+}
+
+#head span p {
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.headbox {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg, rgba(0, 8, 29, 1), rgba(0, 8, 29, 1)) padding-box, linear-gradient(271.65deg, #233371 5.26%, #00197a 50.02%, #e50914 97.68%) border-box;
+    border: 4px solid transparent;
+    padding:1.5rem 2.625rem;
+    margin: 3.5rem 0 0 0;
+    border-radius: 6px;
+    width: auto;
+    /*height: 115px;*/
+    justify-content: center;
+}
+.headbox div{
+    -webkit-box-sizing: border-box;
+}
+.headboxform{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+.headbox h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.headboxform div{
+    margin-top: 1rem;
+    display: inline-flex;
+    background: rgba(22, 22, 22, 0.7);
+    border-radius: 0.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    min-height: 1rem;
+    min-width: 1rem;
+    flex: 2;
+    max-width: 375px;
+}
+
+.headboxform div input{
+    top: 1rem;
+    left: 1rem;
+    font-size: 1 rem ;
+    cursor: text;
+    background: transparent;
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+.headboxform button{
+    display: inline-flex;
+    font-size: 1.5rem;
+    font-weight: 550;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    flex: 1;
+    max-height: 3rem;
+    margin-left: 0.5rem;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.content2{
+    display: flex;
+    width: auto;
+    position: relative;
+}
+.bg1content2{
+    display: flex;
+    position: relative;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 8, 29, 0) 0%, #00081D 93.46%);
+}
+
+
+
+#contentin2{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+    background: linear-gradient(0deg, rgba(0, 8, 29, 1), rgba(0, 8, 29, 1)) padding-box, linear-gradient(271.65deg, #233371 5.26%, #00197a 50.02%, #e50914 97.68%) border-box;
+    width: 100%;
+    height: inherit;
+}
+.content2box{
+    background: #090626;
+    position: relative;
+    top: -230px;
+
+}
+.box{
+    padding: 12px min(10%, 6rem);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.boxreverse{
+    flex-direction: row-reverse;
+}
+.box div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imgdiv{
+    display: flex;
+    box-sizing: inherit;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#boxline{
+    padding: 12px 100px;
+    display: block;
+}
+#boxline div{
+    border-bottom: 1.21165px solid #494949;
+}
+.box div h3{
+    font-weight: 900;
+    font-size: 45px;
+    display: inline-flex;
+}
+.box div p{
+    display: inline-flex;
+    font-weight: 550;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+#faq{
+    position: relative;
+    top: -265px;
+    margin-top: 52px;
+    padding: 3.75rem min(10%, 6rem) 4rem;
+}
+#faq h2{
+    font-size: 40px;
+    font-weight: 700;
+    display: inline-flex;
+    margin-bottom: 16px;
+}
+
+.faqbox{
+    position: relative;
+    margin-bottom: 8px;
+    background-color: rgba(19, 33, 68, 1);
+}
+.faqbox div{
+    border-bottom:1px solid rgba(0, 8, 29, 1);
+}
+.faqbutton{
+    width: 100%;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.faqbutton>span,.faqbox>div{
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+}
+.hidden{
+    visibility: collapse;
+    max-height: 0;
+    padding: 0 1.5rem;
+    overflow: hidden;
+    transition: all 0.1s cubic-bezier(0.5, 0, 0.1, 1);
+}
+.visible{
+    visibility: visible;
+    display: block;
+    text-align: left;
+    text-indent: 0;
+    max-height: 75rem;
+    padding: 1.5rem 1.5rem;
+    transition:  all 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+    background: rgba(34, 51, 98, 1);
+}
+
+#repeatbox{
+    background: transparent;
+    border: none;
+    padding: 0px;
+    margin-top: 16px;
+}
+
+#bottom{
+    position: relative;
+    top: -265px;
+    margin-top: 24px;
+    padding: 3.75rem min(10%, 6rem) 4rem;
+}
+
+footer *{
+    color:rgba(255,255,255,0.7);
+}
+footer ul{
+    margin-top: 36px;
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+footer ul li{
+    margin-top: 12px;
+    list-style: none;
+    width: 25%;
+}
+
+footer span,ul>li>a{
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer span{
+    font-size: 16px;
+}
+
+footer>div,#repeatbutton{
+    margin-top: 36px;
+}
+#repeatbutton{
+    background: rgba(22,22,22,0.7);
+}
+
+@media only screen and (max-width: 1280px){
+    #head{
+        padding: 3.75rem min(10%, 6rem) 0 min(10%, 6rem);
+        font-size: 3rem;
+    }
+    #head span p {
+        font-size: 1.125rem;
+    }
+    #contentin2{
+        padding: 0 2rem;
+    }
+    footer ul li{
+        width: 33.3%;
+    }
+    #head h1{
+        font-size: 3rem;
+    }
+    .content1box{
+        padding: 0 2rem;
+        min-height: 56.25rem;
+    }
+    .nav{
+        padding: 0 2rem;
+    }
+    .headbox{
+        padding:1.5rem 2.625rem;
+        margin: 2rem 0 0 0;
+    }
+    .content2box{
+        top: -350px;
+    }
+}
+@media only screen and (max-width: 960px){
+    footer ul li{
+        width: 50%;
+    }
+    #head h1{
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+    .content1box{
+        padding: 0 2rem;
+        min-height: 32rem;
+    }
+    .headbox{
+        padding:1rem;
+        margin: 0.875rem 0 0 0;
+    }
+    #logo{
+        width: 5.5625rem;
+        height: 1.5rem;
+    }
+    .content2box{
+        top: -400px;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    .selectbtn select{
+        min-width: auto;
+
+    }
+    .selectbtn{
+        margin: 2px 0px;
+    }
+    .content1box{
+        padding: 0 1.5rem;
+        min-height: 30rem;
+    }
+    #head{
+        padding: 3.75rem min(10%, 1rem) 0 min(10%, 1rem);
+    }
+    .nav{
+        padding: 0px;
+    }
+    .headbox h3{
+        line-height: 1.6875rem;
+        font-size: 1.125rem;
+    }
+    .headboxform{
+        align-items: flex-start;
+        flex-direction:column;
+    }
+    .headboxform div{
+        width: 100%;
+    }
+    .headboxform button{
+        font-size: 1.125rem;
+        padding: 0.5rem 1rem;
+        min-height: 3rem;
+        margin-top: 1rem;
+    }
+    .box{
+        padding: 12px min(10%, 1rem);
+    }
+
+    #contentin2{
+        padding: 0 1.5rem;
+        /*top: 279px;*/
+    }
+    #faq{
+        padding: 3.75rem min(10%, 1rem) 3rem;
+    }
+    #bottom{
+        padding: 0 1.5rem;
+        padding: 3.75rem min(10%, 1rem) 3rem;
+    }
+    footer ul li{
+        width: 100%;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .box div h3{
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .box div p{
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    .content2box{
+        top: -300px;
+    }
+}
+@media screen and (max-width: 415px) {
+    .content2box{
+        top: -250px;
+    }
+}
+@media screen and (max-width: 335px) {
+    .container{
+        flex-wrap: nowrap;
+        overflow: clip;
+    }
+    .content2box{
+        top: -100px;
+    }
+    .headboxform button{
+        min-width: 113px;
+        overflow: clip;
+    }
+}
