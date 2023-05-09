@@ -22,7 +22,7 @@ body{
     /*flex-wrap: wrap;*/
     /*position: relative;*/
     width: 100%;
-    background: linear-gradient(0deg, rgba(0, 8, 29, 0.7), rgba(0, 8, 29, 0.7)), url("../bgimg.jpg");
+    background: linear-gradient(0deg, rgba(0, 8, 29, 0.7), rgba(0, 8, 29, 0.7)), url("../imgs/bgimg.jpg");
     min-height: 56.25rem;
     box-sizing: border-box;
 
